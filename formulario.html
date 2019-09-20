@@ -12,24 +12,32 @@
            <form>
                <h1 class="Datos">Datos personales</h1>
                <div>
-               <label class="nombre">Nombre</label>
-               <input type="text" name="" value=""/>
+               <label for="nombre" class="nombre">Nombre:</label>
+               <input id="nombre" type="text" name="" value=""/>
                </label>
             </br>
-               <label class="apellido">Apellido</label>
-               <input type="text" name="" value=""/>
+            </br>
+               <label for="apellido" class="apellido">Apellido:</label>
+               <input id="apellido" type="text" name="" value=""/>
                </label>    
             </br>
-               <label class="fecha nacimiento">Fecha de nacimiento</label>
-               <input type="date" name="bday" min="1900-01-01" max="2019-09-01"/> 
+            </br>
+               <label for="fecha" class="fecha nacimiento">Fecha de nacimiento:</label>
+               <input id= "fecha" type="date" name="bday" min="1900-01-01" max="2019-09-01" placeholder="dd/mm/aaaa"/> 
                </label>  
             </br>
-               <label class="info">Cuéntenos un poco más sobre usted:</label>
             </br>
-              <textarea cols="40" rows="6"></textarea>
+               <label for="info" class="info">Cuéntenos un poco más sobre usted:</label>
+            </br>
+              <textarea id="info" cols="40" rows="6"></textarea>
         </br>
               <button class="submit" type="submit">Enviar</button>
-               
+              </div>
+            </br>  
+              <div id= cbox1>
+                  <input type="radio" value="1" id="cbox1" name="check"/>Femenino</br>   
+                  <input type="radio" value="2" id="cbox1"name="check"/>Masculino</br>
+                </div>
            </form>
          </body>
      
