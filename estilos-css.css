@@ -7,7 +7,9 @@
       display: inline-block;
       text-align: center;
       color: #BE0E41;
-      border: 2px solid #BE0E41;      
+      border: 2px solid #BE0E41; 
+     
+
        }
 .border-parrafo {
         display: inline-block;
@@ -16,6 +18,8 @@
         text-align: left;
         width: 40%;
         font-size: 15px;
+        border-inline-color: black;
+        
         }
 .margen {
         display: inline-block;
