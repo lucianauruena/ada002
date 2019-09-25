@@ -8,9 +8,6 @@
 .nombre{
     color: goldenrod;
     font-family: "Lucida Sans";
-    text-align: right;
-    
-
 }
 .apellido{
     color: goldenrod;
@@ -28,4 +25,9 @@
     color: orange;
     font-family: "Lucida Sans";
     
+}
+#cbox1{
+    margin: 10px;
+    display: inline-block;
+    text-align: justify;
 }

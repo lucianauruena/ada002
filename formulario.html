@@ -15,7 +15,7 @@
                <label for="nombre" class="nombre">Nombre:</label>
                <input id="nombre" type="text" name="" value=""/>
                </label>
-            </br>
+           </br><!--deberia preguntar acerca del doble br para salto de linea-->
             </br>
                <label for="apellido" class="apellido">Apellido:</label>
                <input id="apellido" type="text" name="" value=""/>
@@ -26,6 +26,10 @@
                <input id= "fecha" type="date" name="bday" min="1900-01-01" max="2019-09-01" placeholder="dd/mm/aaaa"/> 
                </label>  
             </br>
+            <div id= cbox1>
+              <input type="radio" value="1" id="cbox1" name="check"/>Femenino</br>   
+              <input type="radio" value="2" id="cbox1"name="check"/>Masculino</br>
+            </div>
             </br>
                <label for="info" class="info">Cuéntenos un poco más sobre usted:</label>
             </br>
@@ -33,11 +37,6 @@
         </br>
               <button class="submit" type="submit">Enviar</button>
               </div>
-            </br>  
-              <div id= cbox1>
-                  <input type="radio" value="1" id="cbox1" name="check"/>Femenino</br>   
-                  <input type="radio" value="2" id="cbox1"name="check"/>Masculino</br>
-                </div>
            </form>
          </body>
      
